@@ -1,0 +1,28 @@
+a,b,c,d = input("Introduceti 4 cuvinte separate prin " + """,""" +" cu minim 3 litere  ").split(',')
+
+word = ""
+cnt1=0
+cnt2=0
+cnt3=0
+cnt4= 0
+l = len(d) /2
+
+if len(a)>=3 and len(b) >=3 and len(c)>=3 and len(d) >=3:
+    for let in a:
+        if cnt1 < 2:
+            word += let
+            cnt1 +=1
+    for let in b:
+        if cnt2<1:
+            word += let
+            cnt2+=1
+    for let in c:
+        if cnt3<3:
+            word += let
+            cnt3+=1
+    for let in d:
+        if cnt4 < l:
+            word += let
+            cnt4 += 1
+
+print(word)
