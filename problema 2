@@ -1,0 +1,2 @@
+a,b,c,d = input("Introduceti 4 cuvinte separate prin " + """,""").split(',')
+print(a,b,c,d + ".")
